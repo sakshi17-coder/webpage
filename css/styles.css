@@ -58,12 +58,13 @@ color: white;
     color:  #11999E;
 }
 .middle-container{
-  margin: 100px 0;
+  margin: 100px 0 0;
 }
 .bottom-container{
-margin: 100px 0 30px  ;
+/* margin: 100px 0 30px; */
 background-color: #ffdfdf;
-padding:50px 0 0 10px;
+padding:50px;
+/* margin-bottom: 0; */
 }
 .dp{
 width: 20%;
@@ -130,4 +131,7 @@ hr{
   background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
   background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
   text-decoration: none;
+}
+.contact-me{
+  padding: 50px;
 }
